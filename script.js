@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${perimetro.toFixed(2)}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira um valor válido para o lado.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -221,7 +221,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${perimetro.toFixed(2)}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira valores válidos para base e altura.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -237,7 +237,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${area.toFixed(2)}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira valores válidos para base e altura.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${circunferencia.toFixed(2)}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira um valor válido para o raio.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -274,7 +274,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${area.toFixed(2)}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira valores válidos para as bases e altura.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${perimetro.toFixed(2)}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira valores válidos para base e altura.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -317,7 +317,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${perimetro.toFixed(2)}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira valores válidos para as diagonais.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -338,7 +338,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${volume.toFixed(2)}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira um valor válido para o raio.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -364,7 +364,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${volume.toFixed(2)}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira valores válidos para raio e altura.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -400,7 +400,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${volume.toFixed(2)}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira valores válidos para raio e altura.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -428,7 +428,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${volume.toFixed(2)}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira valores válidos para área da base, perímetro da base e altura.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -460,7 +460,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${volume.toFixed(2)}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira valores válidos para lado da base e altura.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -487,7 +487,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${volume.toFixed(2)}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira valores válidos para área da base, perímetro da base e altura.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -520,7 +520,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${volume.toFixed(2)}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira valores válidos para lado da base, apótema da base e altura.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -540,7 +540,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${volume.toFixed(2)}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira um valor válido para a aresta.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -562,7 +562,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${volume.toFixed(2)}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira valores válidos para comprimento, largura e altura.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -600,7 +600,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${!isNaN(apotemaPiramide) ? areaTotal.toFixed(2) : areaTotal}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira valores válidos para área da base, perímetro da base e altura.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -642,7 +642,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${!isNaN(apotemaPiramide) ? areaTotal.toFixed(2) : areaTotal}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira valores válidos para lado da base e altura.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -679,7 +679,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${!isNaN(apotemaPiramide) ? areaTotal.toFixed(2) : areaTotal}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira valores válidos para área da base, perímetro da base e altura.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }
@@ -722,7 +722,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <span class="resultado-valor">${!isNaN(apotemaPiramide) ? areaTotal.toFixed(2) : areaTotal}</span>
                             </div>`;
                     } else {
-                        resultadoHTML = '<div class="erro">Por favor, insira valores válidos para lado da base, apótema da base e altura.</div>';
+                        resultadoHTML = '<div class="erro">Para de ser mobile, e coloca um valor válido</div>';
                     }
                     break;
                 }

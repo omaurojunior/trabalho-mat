@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometric Calc | Calculadora Avançada</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <i class="fas fa-shapes"></i>
+                <h1>Geometric<span>Calc</span></h1>
+            </div>
+            <p class="subtitle">Calculadora avançada de formas geométricas</p>
+        </div>
+        
+        <div class="calculator-card">
+            <div class="seletor-forma">
+                <div class="select-wrapper">
+                    <i class="fas fa-shape"></i>
+                    <select id="selecionarForma">
+                        <option value="">Selecione uma forma...</option>
+                        
+                        <optgroup label="Formas Planas">
+                            <option value="quadrado">Quadrado</option>
+                            <option value="retangulo">Retângulo</option>
+                            <option value="triangulo">Triângulo</option>
+                            <option value="circulo">Círculo</option>
+                            <option value="trapezio">Trapézio</option>
+                            <option value="paralelogramo">Paralelogramo</option>
+                            <option value="losango">Losango</option>
+                        </optgroup>
+                        
+                        <optgroup label="Corpos Redondos">
+                            <option value="esfera">Esfera</option>
+                            <option value="cilindro">Cilindro</option>
+                            <option value="cone">Cone</option>
+                        </optgroup>
+                        
+                        <optgroup label="Prismas">
+                            <option value="prisma_base_triangular">Prisma Triangular</option>
+                            <option value="prisma_base_quadrangular">Prisma Quadrangular</option>
+                            <option value="prisma_base_pentagonal">Prisma Pentagonal</option>
+                            <option value="prisma_base_hexagonal">Prisma Hexagonal</option>
+                            <option value="cubo">Cubo</option>
+                            <option value="paralelepipedo">Paralelepípedo</option>
+                        </optgroup>
+                        
+                        <optgroup label="Pirâmides">
+                            <option value="piramide_base_triangular">Pirâmide Triangular</option>
+                            <option value="piramide_base_quadrangular">Pirâmide Quadrangular</option>
+                            <option value="piramide_base_pentagonal">Pirâmide Pentagonal</option>
+                            <option value="piramide_base_hexagonal">Pirâmide Hexagonal</option>
+                        </optgroup>
+                    </select>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+            
+            <div id="parametros" class="parametros-container">
+                <!-- Campos dinâmicos aparecerão aqui -->
+            </div>
+            
+            <div id="resultadoTexto" class="resultado-container">
+                <div class="resultado-placeholder">
+                    <i class="fas fa-calculator"></i>
+                    <p>Selecione uma forma geométrica para começar</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="shape-preview">
+            <div class="shape" id="shapeVisualization">
+                <i class="fas fa-question"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
